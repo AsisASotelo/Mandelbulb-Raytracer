@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
@@ -18,7 +19,7 @@ import sys
 
 
 """
-	A program that implements an algorithm to plot the Mandelbulb, a 3D representation of the mandelbrot set. The algorithm develped by Daniel White and Paul Nylander circumvents the limitations of complex numbers 2D representation by rotatig the values of the mandelbrot set utilizing spherical coordinates. The program creates this 3D object and then implements a distance estimator function that the raytracing of points on the mandelbulb. Because by their very nature Mandelbulbs have difficult to specify points the distance estimator allows for efficient calculation of distances from the observer to the mandelbulb and then colors the pixel correctly. 
+	A program that implements an algorithm to plot the Mandelbulb, a 3D representation of the mandelbrot set. The algorithm developed by Daniel White and Paul Nylander circumvents the limitations of complex numbers 2D representation by rotatig the values of the mandelbrot set utilizing spherical coordinates. The program creates this 3D object and then implements a distance estimator function that the raytracing of points on the mandelbulb. Because by their very nature Mandelbulbs have difficult to specify points the distance estimator allows for efficient calculation of distances from the observer to the mandelbulb and then colors the pixel correctly. 
 
 
 
